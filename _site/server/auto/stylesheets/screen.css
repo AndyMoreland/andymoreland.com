@@ -1,0 +1,190 @@
+/* line 4, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 6, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html {
+  font-size: 100.01%;
+}
+
+/* line 16, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+pre, a, abbr, acronym, address, code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 18, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote, q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" "";
+}
+/* line 45, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 20, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+th, td, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 7, ../_src/screen.scss */
+body.bp {
+  line-height: 18px;
+  font-size: 14px;
+  color: #222;
+  font-family: "Helvetica";
+}
+/* line 13, ../_src/screen.scss */
+body.bp a {
+  -webkit-transition: color 1s ease;
+}
+/* line 15, ../_src/screen.scss */
+body.bp a:hover {
+  color: red;
+}
+/* line 20, ../_src/screen.scss */
+body.bp h1, body.bp h2, body.bp h3, body.bp h4 {
+  color: #000;
+}
+/* line 22, ../_src/screen.scss */
+body.bp h1 a, body.bp h2 a, body.bp h3 a, body.bp h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 25, ../_src/screen.scss */
+body.bp h1 a:hover, body.bp h2 a:hover, body.bp h3 a:hover, body.bp h4 a:hover {
+  -webkit-transition: color 1s default;
+  color: #990000;
+}
+/* line 32, ../_src/screen.scss */
+body.bp h2 {
+  font-size: 36px;
+  line-height: 54px;
+}
+/* line 37, ../_src/screen.scss */
+body.bp h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+/* line 43, ../_src/screen.scss */
+body.bp p {
+  margin-bottom: 20px;
+  text-indent: 1em;
+  text-align: justify;
+}
+/* line 49, ../_src/screen.scss */
+body.bp #container {
+  width: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+}
+/* line 54, ../_src/screen.scss */
+body.bp #header {
+  padding-top: 25px;
+  width: 100%;
+  margin: auto;
+}
+/* line 58, ../_src/screen.scss */
+body.bp #header #header-content {
+  margin: auto;
+  width: 720px;
+}
+/* line 62, ../_src/screen.scss */
+body.bp #header ul#nav-links {
+  display: inline;
+}
+/* line 64, ../_src/screen.scss */
+body.bp #header ul#nav-links li {
+  display: inline;
+}
+/* line 66, ../_src/screen.scss */
+body.bp #header ul#nav-links li a {
+  line-height: 72px;
+  font-size: 18px;
+  padding-left: 10px;
+  position: relative;
+  top: 27px;
+  color: #c4c4c4;
+  text-decoration: none;
+  -webkit-transition: color 1s default;
+}
+/* line 75, ../_src/screen.scss */
+body.bp #header ul#nav-links li a:hover {
+  color: #990000;
+}
+/* line 81, ../_src/screen.scss */
+body.bp #header h1 {
+  position: relative;
+  top: 27px;
+  margin-right: 25px;
+  font-size: 54px;
+  line-height: 72px;
+  display: inline;
+}
+/* line 91, ../_src/screen.scss */
+body.bp #content {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 720px;
+}
+/* line 138, ../../../.rvm/gems/ruby-1.9.1-p378/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.bp #content {
+  overflow-x: hidden;
+}

@@ -1,0 +1,101 @@
+@import "blueprint/reset";
+@import "partials/base";
+@import "blueprint";
+
+$hover-color: #900;
+
+body.bp {
+    line-height: 18px;
+    font-size: 14px;
+    color: #222;
+    font-family: "Helvetica";
+    height: 1000px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#fff));
+    background-position: fixed;
+
+    a {
+        -webkit-transition: color 1s ease;
+        &:hover{
+            color: red;
+        }
+    }
+
+    h1, h2, h3, h4 {
+        color: #000;
+          a {
+              color: inherit;
+              text-decoration: none;
+              &:hover{
+                  -webkit-transition: color 1s default;
+                  color: $hover-color;
+              }
+          }
+    }
+    
+    h2 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+
+    p {
+        margin-bottom: 20px;
+        text-indent: 1em;
+        text-align: justify;
+    }
+
+  #container {
+    @include container; 
+    margin-top: 20px;
+  }
+
+  #header {
+      padding-top: 25px;
+      width: 100%;
+      margin: auto;
+      #header-content {
+          margin: auto;
+          width: 720px;
+      }      
+      ul#nav-links{
+          display: inline;
+          li {
+              display: inline;
+              a {
+                  line-height: 72px;
+                  font-size: 18px;
+                  padding-left: 10px;
+                  position: relative;
+                  top: 27px;
+                  color: #c4c4c4;
+                  text-decoration: none;
+                  -webkit-transition: color 1s default;
+                  &:hover{
+                      color: $hover-color;
+                  }
+              }
+          }
+      }
+      h1 {
+
+          position: relative;
+          top: 27px;
+          margin-right: 25px;
+          font-size: 54px;
+          line-height: 72px;
+          display: inline;
+      }
+  }
+  #content {
+    // Two thirds of the grid columns, rounding up.
+    // With 24 cols, this is 16.
+    $content-columns: ceil($blueprint-grid-columns);
+
+    @include column($content-columns, true); 
+  } 
+}
